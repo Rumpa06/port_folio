@@ -248,25 +248,12 @@ section {
     justify-content: space-between;
     color: beige;
 }
-
-.about .about-content .left {
-    width: 45%;
-
-}
-
-.about .about-content .left img {
-    height: 600px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.about .about-content .right {
-    width: 55%;
+.about .about-content .center {
+    width: 100%;
 
 }
 
-.about .about-content .right .text {
+.about .about-content .center .text {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 10px;
@@ -274,12 +261,13 @@ section {
 
 }
 
-.about .about-content .right p {
+.about .about-content .center p {
     text-align: justify;
 }
 
-.about .about-content .right a {
-    display: inline-block;
+.about .about-content .center a {
+    display:flex;
+    text-align: center;
     background: blueviolet;
     color: white;
     font-size: 1.5rem;
@@ -292,7 +280,7 @@ section {
     transition: all 0.3s ease;
 }
 
-.about .about-content .right a:hover {
+.about .about-content .center a:hover {
     color: blueviolet;
     background: none;
 }
